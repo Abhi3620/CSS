@@ -1,0 +1,25 @@
+
+        *{
+            margin:0;
+            padding:0;
+        }
+        #bar{
+            background-color: coral;
+            color:chartreuse;
+        }
+        main{
+            background-color: blanchedalmond;
+            height: 500px;
+        }
+        #product{
+            width:400px;
+            height:400px;
+            /* background-image: url(jeans.jpeg);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-color: chartreuse; */
+            background: green url(jeans.jpeg)
+            no-repeat  center;
+            
+        }

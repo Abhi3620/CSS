@@ -1,0 +1,337 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0F1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.Amazon_logo{
+    height: 50px;
+    width: 114px;
+}
+.nav_logo{
+    padding: 1px 8px 0 6px;
+    margin: 1px;
+    border: 2px solid transparent;
+    border-radius: 2px;
+}
+.border{
+    border: 2px solid transparent;
+    border-radius: 2px;
+}
+.border:hover{
+    border: 1.5px solid white;
+    border-radius: 2px;
+}
+/** box2 **/
+.nav_add{
+    height: 50px;
+    width: 88.64px;
+    padding: 0 9px 0 9px;
+    margin: 5px 2px 5px 0;
+    color: #D6D6D6;
+    margin-top: 5px;
+}
+
+.add_first{
+    color: #cccccc;
+    font-size: .85rem;
+    margin-left: 15px;
+    margin-top: 7px;
+}
+.add_second{
+    font-size: 1rem;
+    margin-left: 3px ;
+    color: #ffffff;
+}
+.add_icon{
+    display: flex;
+    align-items: center;
+}
+/** box3 **/
+.nav_search{
+    display: flex;
+    justify-content: space-evenly;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+.search_select{
+    background-color: #f3f3f3;
+    width: 45px;
+    height: 38.4;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    text-align: center;
+    border: none;
+}
+.search_input{
+    width:100%;
+    padding: 7px 10px 10px 0px;
+    font-size: 1rem;
+    border: none;
+}
+.search_icon{
+    width: 45px;
+    height: 40px;
+    background-color: #febd68;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    font-size: 1.2rem;
+    color: #0F1111;
+
+}
+.nav_search:hover{
+    border: 2px solid orange;
+    border-radius: 6px;
+}
+/** box4 **/
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 73.38px;
+    height: 50px;
+    margin: 0px 0px 0px 1px;
+    padding: 0px 9px 5px;
+    
+}
+.Image{
+    width: 21.6px;
+    height: 16.2px;
+    margin: 0px 2px 1px 0px;
+}
+.lan{
+    width: 18.38;
+    height: 15px;
+    /* color: #FFFFFF; */
+    font-size: 14px;
+    font-weight: 700;
+    padding-bottom: 2px;
+}
+#select_arrow{
+    width: 18px;
+    height: 14px;
+    border: none;
+    background-color: #0F1111;
+    color: #D6D6D6;
+    
+    
+}
+
+/** box5 **/
+
+.first{
+ font-size: .75rem;
+}
+.second{
+    font-size: .85rem;
+    font-weight: 700;
+}
+
+/** box 6 **/
+.nav_cart{
+    height: 50px;
+    width: 84px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cart{
+    font-size: 30px;
+}
+.nav_cart p{
+    font-size: .85rem;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+/** panel **/
+.panel{
+    height: 40px;
+    background-color:#222f3d ;
+    display: flex;
+    color: #ffffff;
+    align-items: center;
+    justify-content: space-evenly;
+}
+ .panel_ops a{
+    text-decoration: none;
+    color: #ffffff;
+    margin-left: 15px;
+}
+.panel_ops{
+    width: 75%;
+    font-size: .85rem;
+}
+.panel_deals{
+    font-size: .90rem;
+    font-weight: 700;
+    height: 35px;
+    width: 160;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.panel_all{
+    height: 35px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/** hero section**/
+
+.hero_section{
+   background-image: url(Images/hero.jpg); 
+   background-size: cover;
+   height: 400px;
+   display: flex;
+   align-items: end;
+   justify-content: center;
+}
+.hero_msg{
+    background-color: white;
+    height: 40px;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .85rem;
+    margin-bottom: 25px;
+
+}
+.hero_msg a{
+    text-decoration: none;
+    color:#007185;
+}
+
+.shop_section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.shop_game{
+    height: 420px;
+    width: 335px;
+    background-color: white;
+    margin-left: 18px;
+}
+.game_image{
+    height: 304px;
+    width: 334px;
+    padding: 0px 20px;
+}
+.shop_game p{
+    height: 28px;
+    width: 334px;
+    padding: 0px 20px;
+    font-size: 21px;
+    font-weight: 700;
+}
+.shop_game a{
+    text-decoration: none;
+    color: #007185;
+    margin-left: 18px;
+}
+
+.shop_gaming{
+    height: 420px;
+    width: 335px;
+    background-color: white;
+    margin-left: 18px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.shop_gaming p{
+    height: 28px;
+    width: 334px;
+    padding: 0px 20px;
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.game_acc{
+    height:100px;
+    width: 120px;
+    margin-bottom: 90px;
+    padding: 0 20px;
+}
+.game_acc a{
+    text-decoration: none;
+    color: #0F1111;
+
+}
+.footer{
+    margin-top: 15px;
+}
+.foot-panel1{
+    height:50px;
+    font-size: .85rem;
+    padding: 15px 0px;
+    color: #ffffff;
+    background-color: #37475a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-panel2{
+    background-color: #222f3d;
+    color: #ffffff;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+ul a{
+    display: block;
+    text-decoration: none;
+    font-size: .85rem;
+}
+ul{
+    margin-top: 20px;
+}
+
+.foot-panel3{
+    background-color: #222f3d;
+    color: white;
+    border-top: .5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-panel4{
+    background-color: #0F1111;
+    color: #ffffff;
+    height: 80px;
+}
+
+.pages{
+    font-size: .7rem;
+    text-align: center;
+    padding-top: 25px;
+}
+.copr{
+    font-size: .7rem;
+    text-align: center;
+    padding-top: 5px;
+}
+
+
+
+

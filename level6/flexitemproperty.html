@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #con{
+            height: 200px;
+            width: 500px;
+            border: 3px solid red;
+            padding: 10px;
+            margin: 20px;
+            display: flex;
+            flex-direction: row; 
+            justify-content: center;
+            /* flex-wrap:wrap ; */
+             /* align-items:center ; */
+             /* align-content: end; */
+             
+        }
+        .box{
+            height: 100px;
+            width: 100px;
+            border: 2px solid;
+            margin: 5px;
+            /* flex-grow: 1; */
+        }
+        #box1{ background-color: chartreuse;
+        order: 3;
+        }
+        #box2{ background-color: rgb(0, 51, 255);
+        order: 2;
+        }
+        #box3{ background-color: rgb(160, 172, 31);
+            /* align-self:flex-end ; */
+            /* flex-shrink: 4; */
+            /* flex-grow: 2; */
+            order: 1;
+        }
+        #box4{ background-color: rgb(216, 136, 32);
+        order: 4;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="con">
+        <div id="box1" class="box">Flex Item 1</div>
+        <div id="box2" class="box">Flex Item 2</div>
+        <div id="box3" class="box">Flex Item 3</div>
+        <div id="box4" class="box">Flex Item 4</div>
+        
+        
+    </div>
+</body>
+</html>
